@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "diffusefit"
 version = "0.1.0"
-description = "Reference implementation of DiffuseFit for image-based virtual try-on"
+description = "Implementation of DiffuseFit for image-based virtual try-on"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-  { name = "OpenAI", email = "support@openai.com" }
+  { name = "Hamza Mukhtar", email = "Hamza.hm.mukhtar@gmail.com" }
 ]
 dependencies = []
 
