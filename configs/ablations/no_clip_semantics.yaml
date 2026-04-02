@@ -1,0 +1,2 @@
+model:
+  use_clip_semantics: false

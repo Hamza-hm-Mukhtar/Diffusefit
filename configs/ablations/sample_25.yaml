@@ -1,0 +1,2 @@
+diffusion:
+  inference_steps: 25
