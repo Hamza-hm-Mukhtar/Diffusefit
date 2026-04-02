@@ -20,16 +20,6 @@ A research-oriented PyTorch implementation of **DiffuseFit**, a three-stage diff
 - **Evaluation**
   - SSIM, PSNR, FID, LPIPS, GFS
 
-## Important note
-
-The paper excerpt is detailed but still leaves several implementation choices unspecified, including:
-- exact channel counts and hidden widths
-- exact label IDs for garment / limb parsing channels across datasets
-- exact CLIP token injection granularity inside the diffusion denoiser
-- the exact GP-VTON stage-1 replacement implementation
-- the exact diffusion sampler schedule and VAE used
-
-This repository therefore implements a **faithful research-grade reference implementation**, not an official reproduction. All such assumptions are documented in `docs/paper_analysis_and_required_files.md`.
 
 ## Repository layout
 
