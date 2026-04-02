@@ -1,0 +1,12 @@
+defaults:
+  - base
+dataset:
+  name: viton
+  root: ./data/viton
+  manifest_dir: ./manifests/viton
+  train_manifest: ./manifests/viton/train.json
+  val_manifest: ./manifests/viton/val.json
+  test_manifest: ./manifests/viton/test.json
+  image_size: [256, 192]
+training:
+  batch_size: 8

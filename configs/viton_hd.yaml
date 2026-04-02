@@ -1,0 +1,14 @@
+defaults:
+  - base
+dataset:
+  name: viton_hd
+  root: ./data/viton_hd
+  manifest_dir: ./manifests/viton_hd
+  train_manifest: ./manifests/viton_hd/train.json
+  val_manifest: ./manifests/viton_hd/val.json
+  test_manifest: ./manifests/viton_hd/test.json
+  image_size: [512, 384]
+training:
+  batch_size: 2
+diffusion:
+  inference_steps: 100

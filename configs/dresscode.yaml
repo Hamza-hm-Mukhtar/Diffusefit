@@ -1,0 +1,13 @@
+defaults:
+  - base
+dataset:
+  name: dresscode
+  root: ./data/dresscode
+  manifest_dir: ./manifests/dresscode
+  train_manifest: ./manifests/dresscode/train.json
+  val_manifest: ./manifests/dresscode/val.json
+  test_manifest: ./manifests/dresscode/test.json
+  image_size: [512, 384]
+  parse_num_classes: 20
+training:
+  batch_size: 2
