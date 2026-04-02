@@ -19,16 +19,6 @@ A research-oriented PyTorch implementation of **DiffuseFit**, a three-stage diff
   - latent diffusion decoder for final synthesis
 - **Evaluation**
   - SSIM, PSNR, FID, LPIPS, GFS
-- **Ablations**
-  - pose-guided flow
-  - co-training / frozen stage interface
-  - cross-modal fusion strategy
-  - limb-aware generator variants
-  - garment replacement
-  - diffusion conditioning inputs
-  - GP-VTON-style warping replacement
-  - diffusion sampling steps
-  - latency benchmarking
 
 ## Important note
 
