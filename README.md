@@ -1,6 +1,6 @@
 # DiffuseFit
 
-A research-oriented PyTorch implementation of **DiffuseFit**, a three-stage diffusion-based virtual try-on pipeline reconstructed from the paper text you provided.
+A research-oriented PyTorch implementation of **DiffuseFit**, a three-stage diffusion-based virtual try-on pipeline.
 
 ## What this repository includes
 
